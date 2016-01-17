@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--为什么底下这个加上cardView就显示不出颜色了-->
+    <!--tools:context="com.gg.app.mobileSafe.activity.HomeActivity"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/home_head"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textColor="?attr/colorAccent"
+        android:textSize="30sp"/>
+
+    <LinearLayout style="@style/ThemeHomeBigLinear">
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home11"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="手机找回"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home12"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="通讯卫士"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home13"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="软件管理"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ThemeHomeBigLinear">
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home21"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="进程管理"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home22"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="流量统计"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home23"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="手机杀毒"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ThemeHomeBigLinear">
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home31"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="缓存清理"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home32"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="高级工具"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ThemeHomeLinear">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home33"
+                style="@style/ThemeHomeCard"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    style="@style/ThemeHomeText"
+                    android:text="设置中心"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

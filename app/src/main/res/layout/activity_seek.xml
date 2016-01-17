@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.SeekActivity">
+
+    <LinearLayout
+        style="@style/ThemeHomeBigLinear"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/ThemeFindTopText"
+            android:text="防盗保护"/>
+
+        <ToggleButton
+            android:id="@+id/tb_find_protect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_selector_edge"
+            android:textOff="点击开启"
+            android:textOn="已开启"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ThemeHomeBigLinear"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/ThemeFindTopText"
+            android:text="安全号码"/>
+
+        <Button
+            android:id="@+id/btn_find_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_selector_edge"
+            android:text="点击设置"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ThemeHomeBigLinear"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/ThemeFindTopText"
+            android:text="绑定sim卡"/>
+
+        <ToggleButton
+            android:id="@+id/tb_find_sim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_selector_edge"
+            android:textOff="点击绑定"
+            android:textOn="已绑定"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_find_look"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_selector_edge"
+        android:text="点击查看功能介绍"/>
+
+    <TextView
+        style="@style/ThemeFindBottomText"
+        android:text="GPS追踪:#*location*#"/>
+
+    <TextView
+        style="@style/ThemeFindBottomText"
+        android:text="播放报警音乐:#*alarm*#"/>
+
+    <TextView
+        style="@style/ThemeFindBottomText"
+        android:text="远程锁屏:#*lockScreen*#"/>
+
+    <TextView
+        style="@style/ThemeFindBottomText"
+        android:text="远程删除内存数据:#*wipeData*#"/>
+
+    <TextView
+        style="@style/ThemeFindBottomText"
+        android:text="远程删除所有数据:#*wipeAllData*#"/>
+
+
+</LinearLayout>

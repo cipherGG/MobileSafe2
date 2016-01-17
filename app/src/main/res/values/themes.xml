@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primary_dark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <item name="android:textColorPrimary">@color/blue_text</item>
+        <!--<item name="android:windowBackground"></item>-->
+        <!--<item name="android:navigationBarColor"></item>-->
+        <!--<item name="colorPrimaryLight">@color/blue_primary_light</item>-->
+    </style>
+
+
+    <style name="IndigoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorPrimaryDark">@color/indigo_primary_dark</item>
+        <item name="colorAccent">@color/indigo_accent</item>
+        <item name="android:textColorPrimary">@color/indigo_text</item>
+    </style>
+
+
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_primary_dark</item>
+        <item name="colorAccent">@color/green_accent</item>
+        <item name="android:textColorPrimary">@color/green_text</item>
+    </style>
+
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_primary_dark</item>
+        <item name="colorAccent">@color/red_accent</item>
+        <item name="android:textColorPrimary">@color/red_text</item>
+    </style>
+
+
+    <style name="BlueGreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_grey_primary</item>
+        <item name="colorPrimaryDark">@color/blue_grey_primary_dark</item>
+        <item name="colorAccent">@color/blue_grey_accent</item>
+        <item name="android:textColorPrimary">@color/blue_grey_text</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black_primary</item>
+        <item name="colorPrimaryDark">@color/black_primary_dark</item>
+        <item name="colorAccent">@color/black_accent</item>
+        <item name="android:textColorPrimary">@color/black_text</item>
+    </style>
+
+
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryDark">@color/purple_primary_dark</item>
+        <item name="colorAccent">@color/purple_accent</item>
+        <item name="android:textColorPrimary">@color/purple_text</item>
+    </style>
+
+    <style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primary_dark</item>
+        <item name="colorAccent">@color/orange_accent</item>
+        <item name="android:textColorPrimary">@color/orange_text</item>
+    </style>
+
+    <style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="android:textColorPrimary">@color/pink_text</item>
+    </style>
+
+</resources>
